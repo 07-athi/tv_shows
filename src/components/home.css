@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    border: black ;
+  }
+  
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .link{
+    cursor: pointer;
+    margin-top: 5px;
+    transition: transform 0.2s ease-in-out;
+  }
+  .link:hover{
+    transform: scale(1.2);
+  }
